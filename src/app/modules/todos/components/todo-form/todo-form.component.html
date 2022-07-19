@@ -1,0 +1,12 @@
+<div *ngIf="form"  class="mb-3">
+  <form 
+    class="container" 
+    [formGroup]="form" >
+      <label for="todo">Description</label>
+      <input 
+      class="form-control"
+      type="text" 
+      id="todo" 
+      formControlName="todo" />
+</form>
+</div>
